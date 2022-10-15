@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="button_true">Prawda</string>
+    <string name="button_false">Fałsz</string>
+    <string name="button_next">Następne</string>
+    <string name="q_easy">Czy zadanie było trudne?</string>
+    <string name="q_time">Czy zajelo mniej niz 1h</string>
+    <string name="q_ques">Czy quiz ma wiecej niz piec pytan</string>
+    <string name="q_fill">Czy nie mialem pomyslow na pytania</string>
+    <string name="q_last">Czy jest to ostatnie pytanie</string>
+    <string name="correct_answer">Poprawnie</string>
+    <string name="false_answer">Niepoprawnie</string>
+    <string name="helper">Podpowiedź</string>
+    <string name="answer_was_shown">Odpowiedź była wyświetlona</string>
+</resources>

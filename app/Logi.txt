@@ -1,0 +1,32 @@
+OnCreate - pierwsze uruchomienie, ponowne uruchomienie po naciśnięciu cofnij
+OnDestroy - użycie przycisku cofnij usunięcie aplikjacji z ostatnio uzywanych
+OnPause - przycisk home/otwarcie ostatnio użyuwanych/przycisk cofnij przed stop i destroy
+OnStop - przycisk home/otwarcie ostatnio użyuwanych/przycisk cofnij po pause i przed destroy
+OnStart - po Create/po otworzeniu z ostatnio używanych
+OnResume - po Start/po otworzeniu z ostatnio używanych
+
+Po obróceniu:
+2022-10-14 18:45:59.979 8187-8187/com.example.quiz D/MainActivity: Paused
+2022-10-14 18:45:59.981 8187-8187/com.example.quiz D/MainActivity: Stopped
+2022-10-14 18:45:59.982 8187-8187/com.example.quiz D/MainActivity: Destroyed
+2022-10-14 18:46:00.001 8187-8187/com.example.quiz D/MainActivity: Created
+2022-10-14 18:46:00.022 8187-8187/com.example.quiz D/MainActivity: Started
+2022-10-14 18:46:00.023 8187-8187/com.example.quiz D/MainActivity: Resumed
+
+Wyświetli się zapisane pytanie:
+2022-10-14 19:01:24.146 8456-8456/com.example.quiz D/MainActivity: Paused
+2022-10-14 19:01:24.147 8456-8456/com.example.quiz D/MainActivity: Stopped
+2022-10-14 19:01:24.149 8456-8456/com.example.quiz D/MainActivity: Wywołano onSaveInstanceState
+2022-10-14 19:01:24.149 8456-8456/com.example.quiz D/MainActivity: Destroyed
+2022-10-14 19:01:24.175 8456-8456/com.example.quiz D/MainActivity: Created
+2022-10-14 19:01:24.222 8456-8456/com.example.quiz D/MainActivity: Started
+2022-10-14 19:01:24.222 8456-8456/com.example.quiz D/MainActivity: Resumed
+
+Manifest.xml changes:
+<activity
+            android:name=".PromptActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+</activity>
